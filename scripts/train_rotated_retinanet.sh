@@ -1,0 +1,1 @@
+sh ./tools/dist_train.sh ./configs/rotated_retinanet/rotated_retinanet_obb_r50_fpn_fp16_3x_roxray_le90.py 3
