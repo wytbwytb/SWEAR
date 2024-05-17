@@ -84,30 +84,6 @@ def parse_args():
 
 def main():
     args = parse_args()
-    ###
-    # args.config = './configs/oriented_rcnn/oriented_rcnn_r50_fpn_3x_roxray_b_le90.py'
-    # args.config = './configs/oriented_rcnn/oriented_rcnn_r50_fpn_3x_roxray_le90.py'
-    # args.config = './configs/oriented_rcnn/oriented_rcnn_rpn_+h_r50_fpn_3x_roxray_le90.py'
-    # args.config = './configs/oriented_rcnn/oriented_rcnn_r50_fpn_3x_roxray_p_3000_le90.py'
-    # args.config = './configs/ours/ours_r50_fpn_3x_roxray_p_3000_le90.py'
-    # args.config = '/home/wtb/mmrotate/configs/roi_trans/roi_trans_r50_fpn_3x_roxray_le90.py'
-    # args.config = '/home/wtb/mmrotate/configs/psc/rotated-retinanet-rbox-le90_r50_fpn_psc-dual_amp-1x_dota.py'
-    
-    # args.config = '/home/wtb/mmrotate/configs/ours/ours_r50_fpn_3x_roxray_le90.py'
-    args.config = '/home/wtb/mmrotate/configs/gliding_vertex/ours_gliding_vertex_r50_fpn_3x_roxray_le90.py'
-    
-    # args.config = '/home/wtb/mmrotate/configs/oriented_rcnn/oriented_rcnn_r50_fpn_3x_roxray_le90.py'
-    # args.config = './configs/roi_trans/roi_trans_r50_fpn_3x_roxray_le90.py'
-    # args.config = './configs/csl/rotated_retinanet_obb_csl_gaussian_r50_fpn_fp16_3x_roxray_le90.py'
-    # args.config = './configs/ours/ours_r50_fpn_3x_roxray_p_le90.py'
-    # args.config = './configs/hybrid/hybrid_r50_fpn_3x_roxray_b_le90.py'
-    # args.config = './configs/hybrid/hybrid_same_r50_fpn_3x_roxray_b_le90.py'
-    # args.config = './configs/sasm_reppoints/sasm_reppoints_r50_fpn_3x_roxray_le90.py'
-    # args.resume_from = '/media/datasets/gpu17_models/mmrotate/sasm_reppoints/sasm_reppoints_r50_fpn_3x_roxray_le90/epoch_13.pth'
-    # args.config = '/home/wtb/mmrotate/configs/rotated_reppoints/rotated_reppoints_r50_fpn_3x_roxray_p_le90.py'
-    # args.config = './configs/oriented_reppoints/oriented_reppoints_r50_fpn_3x_roxray_le90.py'
-    # args.gpus = 1
-    ### 
     cfg = Config.fromfile(args.config)
     if args.cfg_options is not None:
         cfg.merge_from_dict(args.cfg_options)
