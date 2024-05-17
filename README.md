@@ -1,8 +1,8 @@
-# Towards Universal X-ray Security Inspection: A Benchmark and Stereoscopic-Aware Oriented Prohibited Items Detection Framework
+# (To Be Updated)Towards Universal X-ray Security Inspection: A Benchmark and Stereoscopic-Aware Oriented Prohibited Items Detection Framework
 
 ## Introduction
 
-This repository provides the code for the paper
+This repository provides the code for the paper: Towards Universal X-ray Security Inspection: A Benchmark and Stereoscopic-Aware Oriented Prohibited Items Detection Framework
 
 
 ## Installation
